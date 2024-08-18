@@ -1,4 +1,4 @@
-@media (max-width: 468px) {
+@media (max-width: 768px) {
     .wrap {
         width: 100%;
     }
@@ -7,7 +7,7 @@
     }
     .container header {
         justify-content: center;
-        height: 110px;
+        height: 25vw;
     }
     .container header h1 {
         width: 90%;
