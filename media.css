@@ -1,0 +1,58 @@
+@media (max-width: 468px) {
+    .wrap {
+        width: 100%;
+    }
+    .wrap .container {
+        width: 100%;
+    }
+    .container header {
+        justify-content: center;
+        height: 110px;
+    }
+    .container header h1 {
+        width: 90%;
+        font-size: 7vw;
+    }
+    .container header p {
+        font-size: 4.5vw;
+    }
+    main .year-wrap {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    main .year-wrap:not(.year-2015) {
+        margin-bottom: 180px;
+    }
+    .year-wrap .year-box,
+    .year-wrap .logo-box {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .year-wrap .logo-box img {
+        width: 150px;
+        height: 150px;
+    }
+    .year-wrap .des-box {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .year-wrap .des-box > div:nth-of-type(1) {
+        margin-right: 0;
+    }
+    .year-wrap .des-box > div:nth-of-type(2) {
+        display: none;
+    }
+    .bg-logo {
+        display: none;
+    }
+    .year-wrap .arrow-down {
+        left: 50%;
+        bottom: -120px !important;
+        transform: translateX(-50%);
+    }
+    .year-2007 .vs-text {
+        justify-content: center;
+    }
+}
